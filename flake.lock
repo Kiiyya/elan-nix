@@ -21,6 +21,27 @@
         "type": "github"
       }
     },
+    "lean-kiiya-4_34_0": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2",
+        "nixpkgs-old": "nixpkgs-old_2",
+        "nixpkgs-older": "nixpkgs-older_2"
+      },
+      "locked": {
+        "lastModified": 1789489340,
+        "narHash": "sha256-sunFMcgOITAxP2Y/U8wvpzrFcFBXqldp71Qhcsr/1WM=",
+        "owner": "Kiiyya",
+        "repo": "lean4",
+        "rev": "856ab2048083e1bd199759ab6f25dabc967106ae",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Kiiyya",
+        "ref": "releases/v4.34.0",
+        "repo": "lean4",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1788752844,
@@ -47,6 +68,19 @@
         "url": "https://channels.nixos.org/nixos-19.03/nixexprs.tar.xz"
       }
     },
+    "nixpkgs-old_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1582018169,
+        "narHash": "sha256-qv1iK1IchpZKSeWL3NEs4U5Jl5QVyNHDdiMJvLOI4Yc=",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/19.03/nixos-19.03.173691.34c7eb7545d/nixexprs.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-19.03/nixexprs.tar.xz"
+      }
+    },
     "nixpkgs-older": {
       "flake": false,
       "locked": {
@@ -60,7 +94,33 @@
         "url": "https://channels.nixos.org/nixos-18.03/nixexprs.tar.xz"
       }
     },
+    "nixpkgs-older_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1550657948,
+        "narHash": "sha256-BE0XqzNfzvhhtTXv37LyySyq4moL7z1i1hMvwbFNL/I=",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/18.03/nixos-18.03.133402.cb0e20d6db9/nixexprs.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-18.03/nixexprs.tar.xz"
+      }
+    },
     "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1788752844,
+        "narHash": "sha256-jaBxqP3GfXq5Ilyfz5wulKO7xyBUmToFxqTU+caFyus=",
+        "rev": "dc5d91f840324650bac8c379428c7037a416959a",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1068949.dc5d91f84032/nixexprs.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz"
+      }
+    },
+    "nixpkgs_3": {
       "locked": {
         "lastModified": 1788752844,
         "narHash": "sha256-VaWGJ6+cIYN2erfSecbRV+4ljI185Ty2wUrXyvQbgOw=",
@@ -79,7 +139,8 @@
     "root": {
       "inputs": {
         "lean-kiiya": "lean-kiiya",
-        "nixpkgs": "nixpkgs_2"
+        "lean-kiiya-4_34_0": "lean-kiiya-4_34_0",
+        "nixpkgs": "nixpkgs_3"
       }
     }
   },

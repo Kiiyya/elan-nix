@@ -96,7 +96,7 @@ worked example.
 | output | what |
 | --- | --- |
 | `overlays.default` | adds `pkgs.leanToolchains` — the curated set |
-| `packages.<system>.{"lean-4.30.0","lean-4.30.0-kiiya"}` | same set |
+| `packages.<system>.{"lean-4.30.0","lean-4.30.0-kiiya","lean-4.34.0-kiiya"}` | same set |
 | `lib.mkToolchain pkgs { version; hashes; elanName ? }` | repackage a release tarball |
 | `homeManagerModules.elan` | the `programs.elan` module |
 

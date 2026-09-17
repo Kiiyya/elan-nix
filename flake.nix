@@ -6,12 +6,14 @@
   # The semantic-highlighting fork, which ships its own toolchain package
   # (nix/package.nix) as packages.<system>.default.
   inputs.lean-kiiya.url = "github:Kiiyya/lean4/releases/v4.30.0";
+  inputs.lean-kiiya-4_34_0.url = "github:Kiiyya/lean4/releases/v4.34.0";
 
   outputs =
     {
       self,
       nixpkgs,
       lean-kiiya,
+      lean-kiiya-4_34_0,
     }:
     let
       inherit (nixpkgs) lib;
@@ -47,6 +49,7 @@
 
             # A fork that builds its own toolchain package.
             "lean-4.30.0-kiiya" = lean-kiiya.packages.${system}.default;
+            "lean-4.34.0-kiiya" = lean-kiiya-4_34_0.packages.${system}.default;
           };
         };
 

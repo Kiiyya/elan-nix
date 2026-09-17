@@ -28,11 +28,11 @@
         "nixpkgs-older": "nixpkgs-older_2"
       },
       "locked": {
-        "lastModified": 1789489340,
-        "narHash": "sha256-sunFMcgOITAxP2Y/U8wvpzrFcFBXqldp71Qhcsr/1WM=",
+        "lastModified": 1789653261,
+        "narHash": "sha256-FY9Pp8O6KqUncyV6Ro6Xsnu+2KfwXYlwLbR5YIjSPiI=",
         "owner": "Kiiyya",
         "repo": "lean4",
-        "rev": "856ab2048083e1bd199759ab6f25dabc967106ae",
+        "rev": "191ec6c57b5cbe7e77920b907834f281400dcee2",
         "type": "github"
       },
       "original": {
